@@ -4,13 +4,13 @@
  *  All files that match are deleted. 
  * 
  *  Author: Nicholas Dunnaway
- *  Version: $Id: FileDeleter.cs,v 1.3 2011/07/27 20:11:29 nkd Exp $
+ *  Version: $Id: FileDeleter.cs,v 1.3.1 2011/07/27 20:11:29 nkd Exp $
  */
 using System;
 using System.IO;
 using System.Data;
 
-namespace TecNicPro.FileDeleter
+namespace Digitalroot.FileDeleter
 {
     /// <summary>
     /// Handles cleaning up of temp files.
@@ -43,7 +43,7 @@ namespace TecNicPro.FileDeleter
             // Print the version number. 
             if (args.Length > 0 && (args[0] == "-v" || args[0] == "-version" || args[0] == "-ver"))
             {
-                string sVersion = "$Revision: 1.3 $";
+                string sVersion = "$Revision: 1.3.1 $";
                 sVersion = sVersion.Replace("$", "");               // Remove the CVS dollar sign.
                 sVersion = sVersion.Replace("Revision", "Version"); // Replace revision with version.
                 Console.WriteLine(sVersion);
