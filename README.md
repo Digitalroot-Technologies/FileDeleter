@@ -4,6 +4,7 @@ FileDeleter
 Handles cleaning up of temp files.  
 Reads path data from a SQLite database and age limit on files.  
 All files that match are deleted.  
+Run without any parameters to have it delete files. (I run it with a task scheduler.)   
 
 ===========
     Usage: FileDeleter [options ...] [parameters]
