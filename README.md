@@ -6,7 +6,7 @@ Reads path data from a SQLite database and age limit on files.
 All files that match are deleted.  
 Run without any parameters to have it delete files. (I run it with a task scheduler.)   
 
-===========
+```
     Usage: FileDeleter [options ...] [parameters]
   
     Options:
@@ -22,3 +22,4 @@ Run without any parameters to have it delete files. (I run it with a task schedu
                 FileDeleter -p path age
 
         -h or -help - This help list.
+```
